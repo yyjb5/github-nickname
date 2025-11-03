@@ -1,0 +1,29 @@
+{
+  "name": "tampermonkey-userscript-starter",
+  "version": "0.1.0",
+  "description": "Starter template for building and publishing a Tampermonkey userscript with TypeScript and esbuild.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "lint": "eslint \"src/**/*.ts\"",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run lint && npm run typecheck"
+  },
+  "keywords": [
+    "tampermonkey",
+    "userscript",
+    "greasyfork",
+    "typescript",
+    "esbuild"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/tampermonkey": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "esbuild": "^0.19.0",
+    "eslint": "^8.50.0",
+    "typescript": "^5.2.0"
+  }
+}
